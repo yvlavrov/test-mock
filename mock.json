@@ -641,14 +641,14 @@
       },
       "attacks": {
         "all": {
-          "count": 4200,
+          "count": 4900000,
           "url": "/search/?q=attacks incidents last 30 days api_abuse"
         },
         "by_response_code": [],
         "by_type": [
           {
             "type": "api_abuse",
-            "count": 4200,
+            "count": 4900000,
             "url": "/search?q=attacks incidents last 30 days api_abuse"
           }
         ]
