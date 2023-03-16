@@ -1,0 +1,816 @@
+{
+  "vulns": {
+    "all": {
+      "count": 55,
+      "url": "/search?q=vulns last 30 days"
+    },
+    "high": {
+      "count": 27,
+      "url": "/vulnerabilities/active?risk=high&sort=risk-desc"
+    },
+    "medium": {
+      "count": 3,
+      "url": "/vulnerabilities/active?risk=medium&sort=risk-desc"
+    },
+    "low": {
+      "count": 25,
+      "url": "/vulnerabilities/active?risk=low&sort=risk-desc"
+    }
+  },
+  "threats": {
+    "API1": {
+      "name": "API1:2023 Broken Object Level Authorization",
+      "status": "safe",
+      "vulns": {
+        "all": {
+          "count": 0,
+          "url": "/search/?q=attacks incidents last 30 days open sqli xss rce crlf nosqli xxe ldapi ssti ssi mail_injection"
+        },
+        "high": {
+          "count": 0,
+          "url": "/vulnerabilities/active?risk=high&sort=risk-desc"
+        },
+        "medium": {
+          "count": 0,
+          "url": "/vulnerabilities/active?risk=medium&sort=risk-desc"
+        },
+        "low": {
+          "count": 0,
+          "url": "/vulnerabilities/active?risk=low&sort=risk-desc"
+        },
+        "by_type": []
+      },
+      "attacks": {
+        "all": {
+          "count": 33781,
+          "url": "/search?q=attacks incidents last 30 days"
+        },
+        "by_response_code": [
+          {
+            "response_code": "200",
+            "count": 33781,
+            "url": "/search?q=attacks incidents last 30 days statuscode:200"
+          }
+        ],
+        "by_type": [
+          {
+            "type": "bola",
+            "count": 33781,
+            "url": "/search?q=attacks incidents last 30 days bola"
+          }
+        ]
+      },
+      "security_controls": [
+        {
+          "type": "node_creation",
+          "applied": true,
+          "url": "/nodes"
+        },
+        {
+          "type": "node_traffic",
+          "applied": true,
+          "url": "/nodes"
+        },
+        {
+          "type": "node_synchronization",
+          "applied": true,
+          "url": "/nodes"
+        },
+        {
+          "type": "bola",
+          "applied": true,
+          "url": "/bola-protection"
+        }
+      ]
+    },
+    "API2": {
+      "name": "API2:2023 Broken User Authentication",
+      "status": "critical",  
+      "vulns": {
+        "all": {
+          "count": 9,
+          "url": "/search/?q=vulns last 30 days open weak_auth"
+        },
+        "high": { "count": 9, "url": "/search/?q=vulns last 30 days open high weak_auth" },
+        "medium": {
+          "count": 0,
+          "url": "/search/?q=vulns last 30 days open medium weak_auth"
+        },
+        "low": { "count": 0, "url": "/search/?q=vulns last 30 days open low weak_auth" },
+        "by_type": [
+          {
+            "type": "weak_auth",
+            "url": "/search?q=vulns last 30 days open weak_auth",
+            "risks": {
+              "high": {
+                "count": 9,
+                "url": "/search?q=vulns last 30 days open high weak_auth"
+              },
+              "medium": {
+                "count": 0,
+                "url": "/search?q=vulns last 30 days open medium weak_auth"
+              },
+              "low": {
+                "count": 0,
+                "url": "/search?q=vulns last 30 days open low weak_auth"
+              }
+            }
+          }
+        ]
+      },
+      "attacks": {
+        "all": {
+          "count": 273692,
+          "url": "/search?q=attacks incidents last 30 days"
+        },
+        "by_response_code": [
+          {
+            "response_code": "200",
+            "count": 17740,
+            "url": "/search?q=attacks incidents last 30 days statuscode:200"
+          },
+          {
+            "response_code": "400",
+            "count": 6502,
+            "url": "/search?q=attacks incidents last 30 days statuscode:400"
+          },
+          {
+            "response_code": "403",
+            "count": 239014,
+            "url": "/search?q=attacks incidents last 30 days statuscode:403"
+          },
+          {
+            "response_code": "404",
+            "count": 10436,
+            "url": "/search?q=attacks incidents last 30 days statuscode:404"
+          }
+        ],
+        "by_type": [
+          {
+            "type": "brute",
+            "count": 6502,
+            "url": "/search?q=attacks incidents last 30 days preset: owasp_api_2019_2 brute"
+          },
+          {
+            "type": "mass_assignment",
+            "count": 118,
+            "url": "/search?q=attacks incidents last 30 days preset: owasp_api_2019_2 mass_assignment"
+          },
+          {
+            "type": "ptrav",
+            "count": 33864,
+            "url": "/search?q=attacks incidents last 30 days preset: owasp_api_2019_2 ptrav"
+          },
+          {
+            "type": "rce",
+            "count": 26603,
+            "url": "/search?q=attacks incidents last 30 days preset: owasp_api_2019_2 rce"
+          },
+          {
+            "type": "scanner",
+            "count": 25188,
+            "url": "/search?q=attacks incidents last 30 days preset: owasp_api_2019_2 scanner"
+          },
+          {
+            "type": "sqli",
+            "count": 44911,
+            "url": "/search?q=attacks incidents last 30 days preset: owasp_api_2019_2 sqli"
+          },
+          {
+            "type": "ssrf",
+            "count": 8511,
+            "url": "/search?q=attacks incidents last 30 days preset: owasp_api_2019_2 ssrf"
+          },
+          {
+            "type": "ssti",
+            "count": 6371,
+            "url": "/search?q=attacks incidents last 30 days preset: owasp_api_2019_2 ssti"
+          },
+          {
+            "type": "xss",
+            "count": 121624,
+            "url": "/search?q=attacks incidents last 30 days preset: owasp_api_2019_2 xss"
+          }
+        ]
+      },
+      "security_controls": [
+        {
+          "type": "scanner",
+          "applied": true,
+          "url": "/scanner"
+        },
+        {
+          "type": "bruteforce",
+          "applied": true,
+          "url": "/triggers",
+          "data": {
+            "trigger_count": 3
+          }
+        },
+        {
+          "type": "weak_jwt",
+          "applied": true,
+          "url": "/triggers",
+          "data": {
+            "trigger_count": 1
+          }
+        },
+        {
+          "type": "node_creation",
+          "applied": true,
+          "url": "/nodes"
+        },
+        {
+          "type": "node_traffic",
+          "applied": true,
+          "url": "/nodes"
+        },
+        {
+          "type": "node_synchronization",
+          "applied": true,
+          "url": "/nodes"
+        }
+      ]
+    },
+    "API3": {
+      "name": "API3:2023 Broken Object Property Level Authorization",
+      "status": "critical",  
+      "vulns": {
+        "all": {
+          "count": 28,
+          "url": "/search/?q=vulns last 30 days open infoleak"
+        },
+        "high": { "count": 3, "url": "/search/?q=vulns last 30 days open high infoleak" },
+        "medium": {
+          "count": 0,
+          "url": "/search/?q=vulns last 30 days open medium infoleak"
+        },
+        "low": {
+          "count": 25,
+          "url": "/search/?q=vulns last 30 days open low infoleak"
+        },
+        "by_type": [
+          {
+            "type": "infoleak",
+            "url": "/search?q=vulns last 30 days open infoleak",
+            "risks": {
+              "high": {
+                "count": 3,
+                "url": "/search?q=vulns last 30 days open high infoleak"
+              },
+              "medium": {
+                "count": 0,
+                "url": "/search?q=vulns last 30 days open medium infoleak"
+              },
+              "low": {
+                "count": 25,
+                "url": "/search?q=vulns last 30 days open low infoleak"
+              }
+            }
+          }
+        ]
+      },
+      "attacks": {
+        "all": {
+          "count": 10100,
+          "url": "/search/?q=attacks incidents last 30 days mass_assignment infoleak"
+        },
+        "by_response_code": [],
+        "by_type": [
+          {
+            "type": "mass_assignment",
+            "count": 10100,
+            "url": "/search?q=attacks incidents last 30 days mass_assignment"
+          }
+        ]
+      },
+      "security_controls": [
+        {
+          "type": "scanner",
+          "applied": true,
+          "url": "/scanner"
+        },
+        {
+          "type": "node_creation",
+          "applied": true,
+          "url": "/nodes"
+        },
+        {
+          "type": "node_traffic",
+          "applied": true,
+          "url": "/nodes"
+        },
+        {
+          "type": "node_synchronization",
+          "applied": true,
+          "url": "/nodes"
+        }
+      ]
+    },
+    "API4": {
+      "name": "API4:2023 Unrestricted Resource Consumption",
+      "status": "safe",
+      "vulns": {
+        "all": {
+          "count": 0,
+          "url": "/search/?q=attacks incidents last 30 days sqli xss rce crlf nosqli xxe ldapi ssti ssi mail_injection"
+        },
+        "high": {
+          "count": 0,
+          "url": "/search?q=vulns last 30 days open low xss"
+        },
+        "medium": {
+          "count": 0,
+          "url": "/vulnerabilities/active?risk=medium&sort=risk-desc"
+        },
+        "low": {
+          "count": 0,
+          "url": "/vulnerabilities/active?risk=low&sort=risk-desc"
+        },
+        "by_type": []
+      },
+      "attacks": {
+        "all": {
+          "count": 93,
+          "url": "/search/?q=attacks incidents last 30 days brute data_bomb"
+        },
+        "by_response_code": [],
+        "by_type": [
+          {
+            "type": "brute",
+            "count": 93,
+            "url": "/search?q=attacks incidents last 30 days brute"
+          }
+        ]
+      },
+      "security_controls": [
+        {
+          "type": "node_creation",
+          "applied": true,
+          "url": "/nodes"
+        },
+        {
+          "type": "node_traffic",
+          "applied": true,
+          "url": "/nodes"
+        },
+        {
+          "type": "node_synchronization",
+          "applied": true,
+          "url": "/nodes"
+        },
+        {
+          "type": "scanner",
+          "applied": true,
+          "url": "/scanner"
+        },
+        {
+          "type": "bruteforce",
+          "applied": true,
+          "url": "/triggers",
+          "data": {
+            "trigger_count": 3
+          }
+        }
+      ]
+    },
+    "API5": {
+      "name": "API5:2023 Broken Function Level Authorization",
+      "status": "critical",  
+      "vulns": {
+        "all": {
+          "count": 6,
+          "url": "/search/?q=vulns last 30 days open ptrav redir csrf"
+        },
+        "high": {
+          "count": 3,
+          "url": "/search/?q=vulns last 30 days open high ptrav redir csrf"
+        },
+        "medium": {
+          "count": 3,
+          "url": "/search/?q=vulns last 30 days open medium ptrav redir csrf"
+        },
+        "low": {
+          "count": 0,
+          "url": "/search/?q=vulns last 30 days open low ptrav redir csrf"
+        },
+        "by_type": [
+          {
+            "type": "ptrav",
+            "url": "/search?q=vulns last 30 days open ptrav",
+            "risks": {
+              "high": {
+                "count": 3,
+                "url": "/search?q=vulns last 30 days open high ptrav"
+              },
+              "medium": {
+                "count": 0,
+                "url": "/search?q=vulns last 30 days open medium ptrav"
+              },
+              "low": {
+                "count": 0,
+                "url": "/search?q=vulns last 30 days open low ptrav"
+              }
+            }
+          },
+          {
+            "type": "csrf",
+            "url": "/search?q=vulns last 30 days open csrf",
+            "risks": {
+              "high": {
+                "count": 0,
+                "url": "/search?q=vulns last 30 days open high csrf"
+              },
+              "medium": {
+                "count": 3,
+                "url": "/search?q=vulns last 30 days open medium csrf"
+              },
+              "low": {
+                "count": 0,
+                "url": "/search?q=vulns last 30 days open low csrf"
+              }
+            }
+          }
+        ]
+      },
+      "attacks": {
+        "all": {
+          "count": 66500,
+          "url": "/search/?q=attacks incidents last 30 days ptrav dirbust"
+        },
+        "by_response_code": [],
+        "by_type": [
+          {
+            "type": "ptrav",
+            "count": 66500,
+            "url": "/search?q=attacks incidents last 30 days ptrav"
+          }
+        ]
+      },
+      "security_controls": [
+        {
+          "type": "forced_browsing",
+          "applied": false,
+          "url": "/triggers",
+          "data": {
+            "trigger_count": 0
+          }
+        },
+        {
+          "type": "scanner",
+          "applied": true,
+          "url": "/scanner"
+        },
+        {
+          "type": "node_creation",
+          "applied": true,
+          "url": "/nodes"
+        },
+        {
+          "type": "node_traffic",
+          "applied": true,
+          "url": "/nodes"
+        },
+        {
+          "type": "node_synchronization",
+          "applied": true,
+          "url": "/nodes"
+        }
+      ]
+    },
+    "API6": {
+      "name": "API6:2023 Server Side Request Forgery",
+      "status": "safe",  
+      "vulns": {
+        "all": {
+          "count": 0,
+          "url": "/search/?q=vulns last 30 days open ssrf"
+        },
+        "high": { "count": 0, "url": "/search/?q=vulns last 30 days open high ssrf" },
+        "medium": { "count": 0, "url": "/search/?q=vulns last 30 days open medium ssrf" },
+        "low": { "count": 0, "url": "/search/?q=vulns last 30 days open low ssrf" },
+        "by_type": []
+      },
+      "attacks": {
+        "all": {
+          "count": 367,
+          "url": "/search/?q=attacks incidents last 30 days ssrf"
+        },
+        "by_response_code": [],
+        "by_type": [
+          {
+            "type": "ssrf",
+            "count": 367,
+            "url": "/search?q=attacks incidents last 30 days ssrf"
+          }
+        ]
+      },
+      "security_controls": [
+        {
+          "type": "node_creation",
+          "applied": true,
+          "url": "/nodes"
+        },
+        {
+          "type": "node_traffic",
+          "applied": true,
+          "url": "/nodes"
+        },
+        {
+          "type": "node_synchronization",
+          "applied": true,
+          "url": "/nodes"
+        }
+      ]
+    },
+    "API7": {
+      "name": "API7:2023 Security Misconfiguration",
+      "status": "critical",  
+      "vulns": {
+        "all": {
+          "count": 3,
+          "url": "/search/?q=vulns last 30 days open vuln_component scanner"
+        },
+        "high": {
+          "count": 3,
+          "url": "/search/?q=vulns last 30 days open high vuln_component scanner"
+        },
+        "medium": {
+          "count": 0,
+          "url": "/search/?q=vulns last 30 days open medium vuln_component scanner"
+        },
+        "low": {
+          "count": 0,
+          "url": "/search/?q=vulns last 30 days open low vuln_component scanner"
+        },
+        "by_type": [
+          {
+            "type": "vuln_component",
+            "url": "/search?q=vulns last 30 days open vuln_component",
+            "risks": {
+              "high": {
+                "count": 3,
+                "url": "/search?q=vulns last 30 days open high vuln_component"
+              },
+              "medium": {
+                "count": 0,
+                "url": "/search?q=vulns last 30 days open medium vuln_component"
+              },
+              "low": {
+                "count": 0,
+                "url": "/search?q=vulns last 30 days open low vuln_component"
+              }
+            }
+          }
+        ]
+      },
+      "attacks": {
+        "all": {
+          "count": 6400,
+          "url": "/search/?q=attacks incidents last 30 days scanner"
+        },
+        "by_response_code": [],
+        "by_type": [
+          {
+            "type": "scanner",
+            "count": 6400,
+            "url": "/search?q=attacks incidents last 30 days scanner"
+          }
+        ]
+      },
+      "security_controls": [
+        {
+          "type": "soon_outdated_node_version",
+          "applied": true,
+          "url": "/nodes",
+          "data": {
+            "node_version": "4.3.2"
+          }
+        },
+        {
+          "type": "scanner",
+          "applied": true,
+          "url": "/scanner"
+        },
+        {
+          "type": "node_creation",
+          "applied": true,
+          "url": "/nodes"
+        },
+        {
+          "type": "node_traffic",
+          "applied": true,
+          "url": "/nodes"
+        },
+        {
+          "type": "outdated_node_version",
+          "applied": true,
+          "url": "/nodes",
+          "data": {
+            "node_version": "4.2.2"
+          }
+        },
+        {
+          "type": "node_synchronization",
+          "applied": true,
+          "url": "/nodes"
+        }
+      ]
+    },
+    "API8": {
+      "name": "API8:2023 Lack of Protection from Automated Threats",
+      "status": "safe",  
+      "vulns": {
+        "all": {
+          "count": 0,
+          "url": "/search/?q=vulns last 30 days open sqli xss rce crlf nosqli xxe ldapi ssti ssi mail_injection"
+        },
+        "high": {
+          "count": 0,
+          "url": "/search/?q=vulns last 30 days open high sqli xss rce crlf nosqli xxe ldapi ssti ssi mail_injection"
+        },
+        "medium": {
+          "count": 0,
+          "url": "/search/?q=vulns last 30 days open medium sqli xss rce crlf nosqli xxe ldapi ssti ssi mail_injection"
+        },
+        "low": {
+          "count": 0,
+          "url": "/search/?q=vulns last 30 days open low sqli xss rce crlf nosqli xxe ldapi ssti ssi mail_injection"
+        },
+        "by_type": []
+      },
+      "attacks": {
+        "all": {
+          "count": 4200,
+          "url": "/search/?q=attacks incidents last 30 days api_abuse"
+        },
+        "by_response_code": [],
+        "by_type": [
+          {
+            "type": "api_abuse",
+            "count": 4200,
+            "url": "/search?q=attacks incidents last 30 days api_abuse"
+          }
+        ]
+      },
+      "security_controls": [
+        {
+          "applied": true,
+          "data": {
+            "profile_count": 1
+          },
+          "type": "api_abuse_prevention"
+        }
+      ]
+    },
+    "API9": {
+      "name": "API9:2023 Improper Inventory Management",
+      "status": "safe",  
+      "vulns": {
+        "all": {
+          "count": 0,
+          "url": "/search/?q=attacks incidents last 30 days sqli xss rce crlf nosqli xxe ldapi ssti ssi mail_injection"
+        },
+        "high": {
+          "count": 0,
+          "url": "/search?q=vulns last 30 days open low xss"
+        },
+        "medium": {
+          "count": 0,
+          "url": "/vulnerabilities/active?risk=medium&sort=risk-desc"
+        },
+        "low": {
+          "count": 0,
+          "url": "/vulnerabilities/active?risk=low&sort=risk-desc"
+        },
+        "by_type": []
+      },
+      "attacks": {
+        "all": {
+          "count": 0,
+          "url": "/search?q=attacks incidents last 30 days brute dirbust"
+        },
+        "by_response_code": [],
+        "by_type": []
+      },
+      "security_controls": [
+        {
+          "type": "api_discovery",
+          "applied": true,
+          "url": "/api-discovery?settings=apps"
+        }
+      ]
+    },
+    "API10": {
+      "name": "API10:2023 Unsafe Consumption of APIs",
+      "status": "critical",  
+      "vulns": {
+        "all": {
+          "count": 9,
+          "url": "/search/?q=vulns last 30 days open sqli xss rce crlf nosqli xxe ldapi ssti"
+        },
+        "high": {
+          "count": 9,
+          "url": "/search/?q=vulns last 30 days open high sqli xss rce crlf nosqli xxe ldapi ssti"
+        },
+        "medium": {
+          "count": 0,
+          "url": "/search/?q=vulns last 30 days open medium sqli xss rce crlf nosqli xxe ldapi ssti"
+        },
+        "low": {
+          "count": 0,
+          "url": "/search/?q=vulns last 30 days open low sqli xss rce crlf nosqli xxe ldapi ssti"
+        },
+        "by_type": [
+          {
+            "type": "sqli",
+            "url": "/search?q=vulns last 30 days open sqli",
+            "risks": {
+              "high": {
+                "count": 6,
+                "url": "/search?q=vulns last 30 days open high sqli"
+              },
+              "medium": {
+                "count": 0,
+                "url": "/search?q=vulns last 30 days open medium sqli"
+              },
+              "low": {
+                "count": 0,
+                "url": "/search?q=vulns last 30 days open low sqli"
+              }
+            }
+          },
+          {
+            "type": "rce",
+            "url": "/search?q=vulns last 30 days open rce",
+            "risks": {
+              "high": {
+                "count": 3,
+                "url": "/search?q=vulns last 30 days open high rce"
+              },
+              "medium": {
+                "count": 0,
+                "url": "/search?q=vulns last 30 days open medium rce"
+              },
+              "low": {
+                "count": 0,
+                "url": "/search?q=vulns last 30 days open low rce"
+              }
+            }
+          }
+        ]
+      },
+      "attacks": {
+        "all": {
+          "count": 0,
+          "url": "/search/?q=attacks incidents last 30 days sqli xss rce crlf nosqli xxe ldapi ssti ssi mail_injection"
+        },
+        "by_response_code": [],
+        "by_type": [
+          {
+            "type": "xss",
+            "count": 56200,
+            "url": "/search?q=attacks incidents last 30 days xss"
+          },
+          {
+            "type": "sqli",
+            "count": 44700,
+            "url": "/search?q=attacks incidents last 30 days sqli"
+          },
+          {
+            "type": "rce",
+            "count": 30000,
+            "url": "/search?q=attacks incidents last 30 days rce"
+          },
+          {
+            "type": "ssti",
+            "count": 21900,
+            "url": "/search?q=attacks incidents last 30 days ssti"
+          }
+        ]
+      },
+      "security_controls": [
+        {
+          "type": "scanner",
+          "applied": true,
+          "url": "/scanner"
+        },
+        {
+          "type": "node_creation",
+          "applied": true,
+          "url": "/nodes"
+        },
+        {
+          "type": "node_traffic",
+          "applied": true,
+          "url": "/nodes"
+        },
+        {
+          "type": "node_synchronization",
+          "applied": true,
+          "url": "/nodes"
+        }
+      ]
+    }
+  }
+}
