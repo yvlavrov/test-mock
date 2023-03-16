@@ -331,14 +331,14 @@
       },
       "attacks": {
         "all": {
-          "count": 93,
+          "count": 7150,
           "url": "/search/?q=attacks incidents last 30 days brute data_bomb"
         },
         "by_response_code": [],
         "by_type": [
           {
             "type": "brute",
-            "count": 93,
+            "count": 7150,
             "url": "/search?q=attacks incidents last 30 days brute"
           }
         ]
@@ -379,7 +379,7 @@
       "status": "critical",  
       "vulns": {
         "all": {
-          "count": 6,
+          "count": 5,
           "url": "/search/?q=vulns last 30 days open ptrav redir csrf"
         },
         "high": {
@@ -387,7 +387,7 @@
           "url": "/search/?q=vulns last 30 days open high ptrav redir csrf"
         },
         "medium": {
-          "count": 3,
+          "count": 2,
           "url": "/search/?q=vulns last 30 days open medium ptrav redir csrf"
         },
         "low": {
@@ -422,7 +422,7 @@
                 "url": "/search?q=vulns last 30 days open high csrf"
               },
               "medium": {
-                "count": 3,
+                "count": 2,
                 "url": "/search?q=vulns last 30 days open medium csrf"
               },
               "low": {
@@ -435,14 +435,14 @@
       },
       "attacks": {
         "all": {
-          "count": 66500,
+          "count": 960000,
           "url": "/search/?q=attacks incidents last 30 days ptrav dirbust"
         },
         "by_response_code": [],
         "by_type": [
           {
             "type": "ptrav",
-            "count": 66500,
+            "count": 96000,
             "url": "/search?q=attacks incidents last 30 days ptrav"
           }
         ]
@@ -493,14 +493,14 @@
       },
       "attacks": {
         "all": {
-          "count": 367,
+          "count": 98450,
           "url": "/search/?q=attacks incidents last 30 days ssrf"
         },
         "by_response_code": [],
         "by_type": [
           {
             "type": "ssrf",
-            "count": 367,
+            "count": 98450,
             "url": "/search?q=attacks incidents last 30 days ssrf"
           }
         ]
@@ -641,14 +641,14 @@
       },
       "attacks": {
         "all": {
-          "count": 4900000,
+          "count": 4940000,
           "url": "/search/?q=attacks incidents last 30 days api_abuse"
         },
         "by_response_code": [],
         "by_type": [
           {
             "type": "api_abuse",
-            "count": 4900000,
+            "count": 4940000,
             "url": "/search?q=attacks incidents last 30 days api_abuse"
           }
         ]
