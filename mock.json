@@ -2,7 +2,7 @@
   "vulns": {
     "all": {
       "count": 55,
-      "url": "/search?q=vulns last 30 days"
+      "url": "/search?q=vulns"
     },
     "high": {
       "count": 27,
@@ -24,7 +24,7 @@
       "vulns": {
         "all": {
           "count": 0,
-          "url": "/search/?q=attacks incidents last 30 days open sqli xss rce crlf nosqli xxe ldapi ssti ssi mail_injection"
+          "url": "/search?q=attacks incidents last 30 days open sqli xss rce crlf nosqli xxe ldapi ssti ssi mail_injection"
         },
         "high": {
           "count": 0,
@@ -89,30 +89,30 @@
       "vulns": {
         "all": {
           "count": 9,
-          "url": "/search/?q=vulns last 30 days open weak_auth"
+          "url": "/search?q=vulns open weak_auth"
         },
-        "high": { "count": 9, "url": "/search/?q=vulns last 30 days open high weak_auth" },
+        "high": { "count": 9, "url": "/search?q=vulns open high weak_auth" },
         "medium": {
           "count": 0,
-          "url": "/search/?q=vulns last 30 days open medium weak_auth"
+          "url": "/search?q=vulns open medium weak_auth"
         },
-        "low": { "count": 0, "url": "/search/?q=vulns last 30 days open low weak_auth" },
+        "low": { "count": 0, "url": "/search?q=vulns open low weak_auth" },
         "by_type": [
           {
             "type": "weak_auth",
-            "url": "/search?q=vulns last 30 days open weak_auth",
+            "url": "/search?q=vulns open weak_auth",
             "risks": {
               "high": {
                 "count": 9,
-                "url": "/search?q=vulns last 30 days open high weak_auth"
+                "url": "/search?q=vulns open high weak_auth"
               },
               "medium": {
                 "count": 0,
-                "url": "/search?q=vulns last 30 days open medium weak_auth"
+                "url": "/search?q=vulns open medium weak_auth"
               },
               "low": {
                 "count": 0,
-                "url": "/search?q=vulns last 30 days open low weak_auth"
+                "url": "/search?q=vulns open low weak_auth"
               }
             }
           }
@@ -238,33 +238,33 @@
       "vulns": {
         "all": {
           "count": 28,
-          "url": "/search/?q=vulns last 30 days open infoleak"
+          "url": "/search?q=vulns open infoleak"
         },
-        "high": { "count": 3, "url": "/search/?q=vulns last 30 days open high infoleak" },
+        "high": { "count": 3, "url": "/search?q=vulns open high infoleak" },
         "medium": {
           "count": 0,
-          "url": "/search/?q=vulns last 30 days open medium infoleak"
+          "url": "/search?q=vulns open medium infoleak"
         },
         "low": {
           "count": 25,
-          "url": "/search/?q=vulns last 30 days open low infoleak"
+          "url": "/search?q=vulns open low infoleak"
         },
         "by_type": [
           {
             "type": "infoleak",
-            "url": "/search?q=vulns last 30 days open infoleak",
+            "url": "/search?q=vulns open infoleak",
             "risks": {
               "high": {
                 "count": 3,
-                "url": "/search?q=vulns last 30 days open high infoleak"
+                "url": "/search?q=vulns open high infoleak"
               },
               "medium": {
                 "count": 0,
-                "url": "/search?q=vulns last 30 days open medium infoleak"
+                "url": "/search?q=vulns open medium infoleak"
               },
               "low": {
                 "count": 25,
-                "url": "/search?q=vulns last 30 days open low infoleak"
+                "url": "/search?q=vulns open low infoleak"
               }
             }
           }
@@ -313,11 +313,11 @@
       "vulns": {
         "all": {
           "count": 0,
-          "url": "/search/?q=attacks incidents last 30 days sqli xss rce crlf nosqli xxe ldapi ssti ssi mail_injection"
+          "url": "/search?q=attacks incidents last 30 days sqli xss rce crlf nosqli xxe ldapi ssti ssi mail_injection"
         },
         "high": {
           "count": 0,
-          "url": "/search?q=vulns last 30 days open low xss"
+          "url": "/search?q=vulns open low xss"
         },
         "medium": {
           "count": 0,
@@ -332,7 +332,7 @@
       "attacks": {
         "all": {
           "count": 7150,
-          "url": "/search/?q=attacks incidents last 30 days brute data_bomb"
+          "url": "/search?q=attacks incidents last 30 days brute data_bomb"
         },
         "by_response_code": [],
         "by_type": [
@@ -380,54 +380,54 @@
       "vulns": {
         "all": {
           "count": 5,
-          "url": "/search/?q=vulns last 30 days open ptrav redir csrf"
+          "url": "/search?q=vulns open ptrav redir csrf"
         },
         "high": {
           "count": 3,
-          "url": "/search/?q=vulns last 30 days open high ptrav redir csrf"
+          "url": "/search?q=vulns open high ptrav redir csrf"
         },
         "medium": {
           "count": 2,
-          "url": "/search/?q=vulns last 30 days open medium ptrav redir csrf"
+          "url": "/search?q=vulns open medium ptrav redir csrf"
         },
         "low": {
           "count": 0,
-          "url": "/search/?q=vulns last 30 days open low ptrav redir csrf"
+          "url": "/search?q=vulns open low ptrav redir csrf"
         },
         "by_type": [
           {
             "type": "ptrav",
-            "url": "/search?q=vulns last 30 days open ptrav",
+            "url": "/search?q=vulns open ptrav",
             "risks": {
               "high": {
                 "count": 3,
-                "url": "/search?q=vulns last 30 days open high ptrav"
+                "url": "/search?q=vulns open high ptrav"
               },
               "medium": {
                 "count": 0,
-                "url": "/search?q=vulns last 30 days open medium ptrav"
+                "url": "/search?q=vulns open medium ptrav"
               },
               "low": {
                 "count": 0,
-                "url": "/search?q=vulns last 30 days open low ptrav"
+                "url": "/search?q=vulns open low ptrav"
               }
             }
           },
           {
             "type": "csrf",
-            "url": "/search?q=vulns last 30 days open csrf",
+            "url": "/search?q=vulns open csrf",
             "risks": {
               "high": {
                 "count": 0,
-                "url": "/search?q=vulns last 30 days open high csrf"
+                "url": "/search?q=vulns open high csrf"
               },
               "medium": {
                 "count": 2,
-                "url": "/search?q=vulns last 30 days open medium csrf"
+                "url": "/search?q=vulns open medium csrf"
               },
               "low": {
                 "count": 0,
-                "url": "/search?q=vulns last 30 days open low csrf"
+                "url": "/search?q=vulns open low csrf"
               }
             }
           }
@@ -436,7 +436,7 @@
       "attacks": {
         "all": {
           "count": 960000,
-          "url": "/search/?q=attacks incidents last 30 days ptrav dirbust"
+          "url": "/search?q=attacks incidents last 30 days ptrav dirbust"
         },
         "by_response_code": [],
         "by_type": [
@@ -484,17 +484,17 @@
       "vulns": {
         "all": {
           "count": 0,
-          "url": "/search/?q=vulns last 30 days open ssrf"
+          "url": "/search?q=vulns open ssrf"
         },
-        "high": { "count": 0, "url": "/search/?q=vulns last 30 days open high ssrf" },
-        "medium": { "count": 0, "url": "/search/?q=vulns last 30 days open medium ssrf" },
-        "low": { "count": 0, "url": "/search/?q=vulns last 30 days open low ssrf" },
+        "high": { "count": 0, "url": "/search?q=vulns open high ssrf" },
+        "medium": { "count": 0, "url": "/search?q=vulns open medium ssrf" },
+        "low": { "count": 0, "url": "/search?q=vulns open low ssrf" },
         "by_type": []
       },
       "attacks": {
         "all": {
           "count": 98450,
-          "url": "/search/?q=attacks incidents last 30 days ssrf"
+          "url": "/search?q=attacks incidents last 30 days ssrf"
         },
         "by_response_code": [],
         "by_type": [
@@ -529,36 +529,36 @@
       "vulns": {
         "all": {
           "count": 3,
-          "url": "/search/?q=vulns last 30 days open vuln_component scanner"
+          "url": "/search?q=vulns open vuln_component scanner"
         },
         "high": {
           "count": 3,
-          "url": "/search/?q=vulns last 30 days open high vuln_component scanner"
+          "url": "/search?q=vulns open high vuln_component scanner"
         },
         "medium": {
           "count": 0,
-          "url": "/search/?q=vulns last 30 days open medium vuln_component scanner"
+          "url": "/search?q=vulns open medium vuln_component scanner"
         },
         "low": {
           "count": 0,
-          "url": "/search/?q=vulns last 30 days open low vuln_component scanner"
+          "url": "/search?q=vulns open low vuln_component scanner"
         },
         "by_type": [
           {
             "type": "vuln_component",
-            "url": "/search?q=vulns last 30 days open vuln_component",
+            "url": "/search?q=vulns open vuln_component",
             "risks": {
               "high": {
                 "count": 3,
-                "url": "/search?q=vulns last 30 days open high vuln_component"
+                "url": "/search?q=vulns open high vuln_component"
               },
               "medium": {
                 "count": 0,
-                "url": "/search?q=vulns last 30 days open medium vuln_component"
+                "url": "/search?q=vulns open medium vuln_component"
               },
               "low": {
                 "count": 0,
-                "url": "/search?q=vulns last 30 days open low vuln_component"
+                "url": "/search?q=vulns open low vuln_component"
               }
             }
           }
@@ -567,7 +567,7 @@
       "attacks": {
         "all": {
           "count": 6400,
-          "url": "/search/?q=attacks incidents last 30 days scanner"
+          "url": "/search?q=attacks incidents last 30 days scanner"
         },
         "by_response_code": [],
         "by_type": [
@@ -623,26 +623,26 @@
       "vulns": {
         "all": {
           "count": 0,
-          "url": "/search/?q=vulns last 30 days open sqli xss rce crlf nosqli xxe ldapi ssti ssi mail_injection"
+          "url": "/search?q=vulns open sqli xss rce crlf nosqli xxe ldapi ssti ssi mail_injection"
         },
         "high": {
           "count": 0,
-          "url": "/search/?q=vulns last 30 days open high sqli xss rce crlf nosqli xxe ldapi ssti ssi mail_injection"
+          "url": "/search?q=vulns open high sqli xss rce crlf nosqli xxe ldapi ssti ssi mail_injection"
         },
         "medium": {
           "count": 0,
-          "url": "/search/?q=vulns last 30 days open medium sqli xss rce crlf nosqli xxe ldapi ssti ssi mail_injection"
+          "url": "/search?q=vulns open medium sqli xss rce crlf nosqli xxe ldapi ssti ssi mail_injection"
         },
         "low": {
           "count": 0,
-          "url": "/search/?q=vulns last 30 days open low sqli xss rce crlf nosqli xxe ldapi ssti ssi mail_injection"
+          "url": "/search?q=vulns open low sqli xss rce crlf nosqli xxe ldapi ssti ssi mail_injection"
         },
         "by_type": []
       },
       "attacks": {
         "all": {
           "count": 4940000,
-          "url": "/search/?q=attacks incidents last 30 days api_abuse"
+          "url": "/search?q=attacks incidents last 30 days api_abuse"
         },
         "by_response_code": [],
         "by_type": [
@@ -669,11 +669,11 @@
       "vulns": {
         "all": {
           "count": 0,
-          "url": "/search/?q=attacks incidents last 30 days sqli xss rce crlf nosqli xxe ldapi ssti ssi mail_injection"
+          "url": "/search?q=attacks incidents last 30 days sqli xss rce crlf nosqli xxe ldapi ssti ssi mail_injection"
         },
         "high": {
           "count": 0,
-          "url": "/search?q=vulns last 30 days open low xss"
+          "url": "/search?q=vulns open low xss"
         },
         "medium": {
           "count": 0,
@@ -707,54 +707,54 @@
       "vulns": {
         "all": {
           "count": 9,
-          "url": "/search/?q=vulns last 30 days open sqli xss rce crlf nosqli xxe ldapi ssti"
+          "url": "/search?q=vulns open sqli xss rce crlf nosqli xxe ldapi ssti"
         },
         "high": {
           "count": 9,
-          "url": "/search/?q=vulns last 30 days open high sqli xss rce crlf nosqli xxe ldapi ssti"
+          "url": "/search?q=vulns open high sqli xss rce crlf nosqli xxe ldapi ssti"
         },
         "medium": {
           "count": 0,
-          "url": "/search/?q=vulns last 30 days open medium sqli xss rce crlf nosqli xxe ldapi ssti"
+          "url": "/search?q=vulns open medium sqli xss rce crlf nosqli xxe ldapi ssti"
         },
         "low": {
           "count": 0,
-          "url": "/search/?q=vulns last 30 days open low sqli xss rce crlf nosqli xxe ldapi ssti"
+          "url": "/search?q=vulns open low sqli xss rce crlf nosqli xxe ldapi ssti"
         },
         "by_type": [
           {
             "type": "sqli",
-            "url": "/search?q=vulns last 30 days open sqli",
+            "url": "/search?q=vulns open sqli",
             "risks": {
               "high": {
                 "count": 6,
-                "url": "/search?q=vulns last 30 days open high sqli"
+                "url": "/search?q=vulns open high sqli"
               },
               "medium": {
                 "count": 0,
-                "url": "/search?q=vulns last 30 days open medium sqli"
+                "url": "/search?q=vulns open medium sqli"
               },
               "low": {
                 "count": 0,
-                "url": "/search?q=vulns last 30 days open low sqli"
+                "url": "/search?q=vulns open low sqli"
               }
             }
           },
           {
             "type": "rce",
-            "url": "/search?q=vulns last 30 days open rce",
+            "url": "/search?q=vulns open rce",
             "risks": {
               "high": {
                 "count": 3,
-                "url": "/search?q=vulns last 30 days open high rce"
+                "url": "/search?q=vulns open high rce"
               },
               "medium": {
                 "count": 0,
-                "url": "/search?q=vulns last 30 days open medium rce"
+                "url": "/search?q=vulns open medium rce"
               },
               "low": {
                 "count": 0,
-                "url": "/search?q=vulns last 30 days open low rce"
+                "url": "/search?q=vulns open low rce"
               }
             }
           }
@@ -763,7 +763,7 @@
       "attacks": {
         "all": {
           "count": 0,
-          "url": "/search/?q=attacks incidents last 30 days sqli xss rce crlf nosqli xxe ldapi ssti ssi mail_injection"
+          "url": "/search?q=attacks incidents last 30 days sqli xss rce crlf nosqli xxe ldapi ssti ssi mail_injection"
         },
         "by_response_code": [],
         "by_type": [
